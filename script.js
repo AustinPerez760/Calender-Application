@@ -1,6 +1,14 @@
-console.log(moment().format("MMMM Do YYYY, h:mm:ss a"));
+var row = $(".row");
+var timeFormat = "hh:mm:ss";
 
-//Show current day
-document.querySelector("#currentDay").textContent = moment().format(
-  "MMMM Do YYYY"
-);
+// console.log(moment().format("MMMM Do YYYY, h:mm:ss a"));
+
+//Show current day and month
+$("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
+
+// Local Storage
+$("button").click(function () {
+  var addValID = $(this).prev().attr("id");
+  var addVal = $(this).prev().val();
+  localStorage.setItem(addValID, addVal);
+});
