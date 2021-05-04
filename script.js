@@ -19,15 +19,15 @@ for (i = 0; i < row.length; i++) {
 
 var arayTimes = [
   { textarea: $("#8"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#9"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#10"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#11"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#12"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#1"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#2"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#3"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#4"), begin: "08:00:00", end: "08:59:59" },
-  { textarea: $("#5"), begin: "08:00:00", end: "08:59:59" },
+  { textarea: $("#9"), begin: "09:00:00", end: "09:59:59" },
+  { textarea: $("#10"), begin: "10:00:00", end: "10:59:59" },
+  { textarea: $("#11"), begin: "11:00:00", end: "11:59:59" },
+  { textarea: $("#12"), begin: "12:00:00", end: "12:59:59" },
+  { textarea: $("#1"), begin: "13:00:00", end: "13:59:59" },
+  { textarea: $("#2"), begin: "14:00:00", end: "14:59:59" },
+  { textarea: $("#3"), begin: "15:00:00", end: "15:59:59" },
+  { textarea: $("#4"), begin: "16:00:00", end: "16:59:59" },
+  { textarea: $("#5"), begin: "17:00:00", end: "17:59:59" },
 ];
 
 colorShift();
